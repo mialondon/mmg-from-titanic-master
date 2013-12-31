@@ -141,9 +141,9 @@ figure {
 }
 
 fieldset {
-  border: 1px solid silver;
-  margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
+  /*border: 1px solid silver;
+   margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; testing */
 }
 
 legend {
@@ -228,7 +228,7 @@ table {
 body {
   background: #fff;
   font: 1em/1.625;
-  font-family: Lucida Grande,Lucida Sans Unicode,sans-serif;
+  font-family: "Lucida Grande","Lucida Sans Unicode","PT Sans",sans-serif;
   color: #003366;
 /*  text-shadow: 1px 1px 0 #111111;*/
 }
@@ -236,7 +236,7 @@ body {
 input,
 textarea {
   padding: .5em;
-  font: 1em/1.625;
+  font: .80em/1.25;
   /*font: 1em/1.625 Georgia, Times, "Times New Roman", serif;*/
   color: #606475;
 }
@@ -247,7 +247,6 @@ textarea {
 
 h1 {
   margin: 0 0 0.5417em;
-  font-family: "PT Sans", sans-serif;
   font-size: 3em;
   line-height: 1.0833em;
   /*color: #d7d8dc;*/
@@ -255,26 +254,23 @@ h1 {
 }
 
 h2 {
-  margin: 0 0 0.7222em;
-  font-family: "PT Sans", sans-serif;
+  margin: 0 0 0.5417em;
   font-size: 2.25em;
-  line-height: 1.4444em;
+  line-height: 1.0833em;
   /*color: #d7d8dc;*/
   /*text-shadow: 1px 1px 0 black, 2px 2px 0 rgba(0, 0, 0, 0.5), 3px 3px 3px rgba(0, 0, 0, 0.2);*/
 }
 
 h3, .widgettitle {
-  margin: 0 0 0.8667em;
-  font-family: "PT Sans", sans-serif;
-  /*font-size: 1.875em;
-  line-height: 1.7333em; testing */
+  /*margin: 0.8667em 0 0 0.8667em;
+  font-size: 1.875em;
+  line-height: 1.7333em; */
   /*color: #d7d8dc;*/
   /*text-shadow: 1px 1px 0 black, 2px 2px 0 rgba(0, 0, 0, 0.5), 3px 3px 3px rgba(0, 0, 0, 0.2);*/
 }
 
 h4 {
   margin: 0 0 1.0833em;
-  font-family: "PT Sans", sans-serif;
   font-size: 1.5em;
   line-height: 1.0833em;
   /*color: #d7d8dc;*/
@@ -283,7 +279,6 @@ h4 {
 
 h5 {
   margin: 0 0 1.1818em;
-  font-family: "PT Sans", sans-serif;
   font-size: 1.375em;
   line-height: 1.1818em;
   /*color: #d7d8dc;*/
@@ -292,7 +287,6 @@ h5 {
 
 h6, .page-title {
   margin: 0 0 1.4444em;
-  font-family: "PT Sans", sans-serif;
   font-size: 1.125em;
   line-height: 1.4444em;
   /*color: #d7d8dc;*/
@@ -892,6 +886,7 @@ input[type="submit"]:hover {
 .aside {
   word-wrap: break-word;
   overflow-wrap: break-word;
+  border: 1px solid silver;
 }
 .aside ul,
 .aside section ul {
@@ -901,7 +896,7 @@ input[type="submit"]:hover {
 }
 .aside ul ul,
 .aside section ul ul {
-  margin: 0 0 0 20px;
+  margin: 0 0 0 10px;
 }
 .aside ul ul li,
 .aside section ul ul li {
@@ -1566,6 +1561,9 @@ p.objectdescription:first-line {
 .widget_mmgscorewidget {
     color: #985A3E;
 }
+.widget_mmgscorewidget ul {
+  padding:0px; /* testing */
+}
 
 .cp_pointsWidget {
     color: #985A3E;
@@ -1590,8 +1588,8 @@ p.objectdescription:first-line {
      -moz-border-radius: 7px;
      -webkit-border-radius: 7px;
      border-radius: 7px;*/
-padding-right:10px;
-padding-left:10px;
+/*padding-right:10px;
+padding-left:10px; testing */
 }
 
 .wFormContainer a {
