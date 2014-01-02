@@ -10,15 +10,6 @@ Version: 0.2.0
 Tags: thematic, child-theme, responsive, mobile-first, SASS
 */
 
-/* Imports from old MMG CSS */
-/* form stuff from wforms site */
-@import url('../thematic/library/styles/form/wforms-layout.css');
-@import url('../thematic/library/styles/form/form.css');
-@import url('../thematic/library/styles/form/wforms-jsonly.css');
-@import url('../thematic/library/styles/form/wforms-layout-ipad.css');
-/* end imports from old MMG CSS */
-
-
 article,
 aside,
 details,
