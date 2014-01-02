@@ -1575,6 +1575,12 @@ p.objectdescription:first-line {
     font-weight: bolder;
 }
 
+.siteinfo {
+  color: #666;
+  border-top-color: #666;
+  font-size: 0.8em;  
+}
+
 /* wForm stuff from old MMG CSS, might not need it */
 
 .wFormContainer {
