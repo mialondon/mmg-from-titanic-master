@@ -441,13 +441,14 @@ blockquote cite {
 #header {
   margin: 0 auto 1.625em;
   padding: 1em;
-  background: #202021;
+  background: #245582;
 }
 
 #branding {
   *zoom: 1;
   position: relative;
   margin: 0 auto;
+  color: #D5E5F4; 
 }
 #branding:after {
   content: "";
@@ -457,18 +458,19 @@ blockquote cite {
 
 #blog-title {
   float: left;
-  margin: 0;
+  margin: 0 2em 0 0;
   padding: 0;
 }
 #blog-title a {
   color: #FFFFE0;
+  text-decoration: none;
 }
 #blog-title a:hover {
   color: #afb1b9;
 }
 
 #blog-description {
-  display: none;
+  /*display: none;*/
   float: left;
   margin: 0;
   color: #FFFFE0;
@@ -981,6 +983,9 @@ input[type="submit"]:hover {
   margin: 0 auto;
   padding: 1.625em 1em;
   clear: both;
+  color: #666;
+  border-top-color: #666;
+  font-size: 0.7em;  
 }
 
 .footer-aside {
@@ -1155,9 +1160,11 @@ img#wpstats {
     padding: 1em;
     color: #f1f1f1;
     text-transform: lowercase;
+    text-decoration: none;    
   }
   #branding nav li a:hover {
     color: #afb1b9;
+    text-decoration: underline;
   }
   #branding nav .current-menu-item a {
     color: #afb1b9;
@@ -1264,6 +1271,7 @@ img#wpstats {
     margin: 0 auto;
   }
 }
+/****************************************************************/
 @media print {
   * {
     background: transparent !important;
@@ -1336,6 +1344,7 @@ img#wpstats {
 
 }
 
+/****************************************************************/
 /* MMG-specific stuff, here to start with */
 .mmgContent {
     padding-top:5px;
@@ -1573,12 +1582,6 @@ p.objectdescription:first-line {
     color: #84340F;
     font-size: 1.2em;
     font-weight: bolder;
-}
-
-.siteinfo {
-  color: #666;
-  border-top-color: #666;
-  font-size: 0.8em;  
 }
 
 /* wForm stuff from old MMG CSS, might not need it */
